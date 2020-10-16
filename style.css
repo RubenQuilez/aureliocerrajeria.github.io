@@ -1731,13 +1731,13 @@ transition: all 0.5s;
   .service_nav li {margin-left: 12px;min-height: 522px;padding: 0 10px;}
   .archiveblog_right {width: 70%;}
   .page_left {width: 100%;}
-}
+  }
   
 @media(max-width:991px ){
 	.navbar-default .navbar-nav > li > a {font-size: 12px; padding: 10px;}
   .dropdown-menu > li > a{font-size: 12px;padding: 10px;}
-  .navbar-brand {height: auto;margin-top: -35px;width: 215px;}
-  .navbar-brand>img{height: 100%;}
+  .navbar-brand {height: auto;margin-top: -35px;width: 215px; }
+  .navbar-brand>img{height: 100%; }  
   #sliderSection{margin-top: 67px;}
   .price_nav>li {margin-right: 9px;}
   .price_img {width: 85%;}
@@ -1760,11 +1760,11 @@ transition: all 0.5s;
   .page_left {width: 100%;}
   
 }
-
+/*tamaño movil*/
 @media(max-width:767px ){
    .navbar-default li.active:after {display: none;}
    .navbar-nav > li > .dropdown-menu { margin-top: 5px;}
-   .navbar-toggle {margin-top: 13px;}
+   .navbar-toggle {margin-top: 13px; }
    .price_nav>li {width: 100%;margin-bottom: 25px;}
    .testimon_nav {margin-left: 0px;}
    .testimon_nav li {margin-bottom: 100px;width: 100%;margin-left: 0px;}
@@ -1776,6 +1776,7 @@ transition: all 0.5s;
    #imgbanner{height: 250px;margin-top: 61px;}
    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     border-radius: 0px;  
+    
   }
   .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
      border-radius: 0px;
@@ -1828,8 +1829,7 @@ transition: all 0.5s;
   .developer {text-align: center;width: 100%;}
   .footer_bottom {margin-top: 0px;}
   .client_title > h2 {line-height: 30px;font-size: 25px;}
- 
-}
+  }
 @media(max-width:360px ){
  .client_title > h2 {font-size: 20px;}
  .client_img {left: 35%;}
@@ -1842,10 +1842,8 @@ transition: all 0.5s;
  .slider_caption {top: 5%;}
  .slick-initialized .slick-slide {text-align: center;}
  .slick-slide img {display: inline-block;}
-}
+ }
 @media(max-width:320px ){
 	.client_title > h2 {font-size: 18px;}
-  .client_img {left: 33%;}
-  
-	
+  .client_img {left: 33%;}  
 }
