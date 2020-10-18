@@ -1828,7 +1828,7 @@ transition: all 0.5s;
   #slides {height: 200px !important; margin-top: 0px !important;} /*caja slider*/
   #sliderSection {margin-top: 60px; height: 200px;}
   #slides-container {margin-top: 0px !important;}
-  #imagenesSlider {width:100% !important; height:100% !important; position:absolute ! important;margin-top: 0px !important; top:0px !important } 
+  .imagenesSlider {left: 0px !important; width:100% !important; height:100% !important; position:absolute ! important;margin-top: 0px !important; top:0px !important } 
   .slides-navigation {top:20% !important;}
   #specialQuote p { font-size: 20px !important;}
   #slides .li {height: 100%;}
