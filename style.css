@@ -1820,10 +1820,10 @@ transition: all 0.5s;
     position: relative;
     right: 0;
     text-align: center;
-    top: 33%;
+    top: 0%;
     width: 100%;
   }
-  #letraCerrajeriaId {color:white;}
+  .letraCerrajeriaId {color:white !important;}
   #mainslider_area {margin-top: 0px !important;}
   #slides {height: 200px !important; margin-top: 0px !important;} /*caja slider*/
   #sliderSection {margin-top: 60px; height: 200px;}
