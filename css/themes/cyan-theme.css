@@ -158,6 +158,9 @@
 .slider_caption > h2 span{ 
   color: #09316b; 
 }
+.slider_caption > h3 span{ 
+  color: #09316b; 
+}
 .slider_btn {
   border: 1px solid #09316b;  
 }

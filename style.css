@@ -204,6 +204,7 @@ img{
   background-repeat:no-repeat;
   background-position:center;
   margin:-100px 0 0 -100px; /* is width and height divided by two */
+  padding: 10, 10, 10, 10;
 }
 
 /*scrol to top*/
