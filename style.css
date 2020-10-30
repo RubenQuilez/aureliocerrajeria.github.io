@@ -1425,7 +1425,7 @@ transition: all 0.5s;
   float: left;
   padding: 20px;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .archiveblog_left{
   float: left;
@@ -1557,7 +1557,7 @@ transition: all 0.5s;
   padding-left: 20px;  
 }
 .archiveblog_right ul li {
-  color: #798992;
+  color: #333;
   font-size: 15px;
   line-height: 25px;
 }
@@ -1725,8 +1725,19 @@ transition: all 0.5s;
   padding: 10px 5px;
 }
 
+/* Mis estilos*/
+.postNovedades {
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
 
-
+.postNosotros
+{
+  height: 350px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
 
 /*--------------------*/
 /* Responsive Style */
@@ -1742,7 +1753,15 @@ transition: all 0.5s;
   .service_nav li {margin-left: 12px;min-height: 522px;padding: 0 10px;}
   .archiveblog_right {width: 70%;}
   .page_left {width: 100%;}
+  .postNosotros
+  {
+    height: 270px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: 0px;
+    text-align: center;
   }
+}
   
 @media(max-width:991px ){
 	.navbar-default .navbar-nav > li > a {font-size: 12px; padding: 10px;}
@@ -1776,7 +1795,15 @@ transition: all 0.5s;
   #slides-container {margin-top: 0px !important;}
   #imagenesSlider {width:100% !important; height:50% !important; position:absolute ! important;margin-top: 0px !important; top:0px !important } 
   
-  #slides .li {height: 100%;}
+  #slides .li {height: 100%;} 
+  .postNosotros
+  {
+    height: 200px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: 0px;
+    text-align: center;
+  }
   /* #imagenesSlider {width:450px !important; height:50px !important} */
 }
 /*tamaño movil*/
@@ -1833,6 +1860,15 @@ transition: all 0.5s;
   .slides-navigation {top:20% !important;}
   #specialQuote p { font-size: 20px !important;}
   #slides .li {height: 100%;}
+  .postNosotros
+  {
+    height: 180px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: 0px;
+    margin-left: 0px !important;
+    text-align: center;
+  }
 }
 /*tamaño movil*/
 @media(max-width:640px){
@@ -1854,7 +1890,7 @@ transition: all 0.5s;
   .service_title > p {font-size: 18px;}
   .form_container {padding: 20px 0px;}
   #imgbanner h2 {font-size: 30px;line-height: 35px;}
-  #imgbanner {height: 200px;padding: 70px 0px;}
+  #imgbanner {height: 120px;padding: 25px 0px;}
   .contact_right{padding-left: 0px;}
   .archiveblog_left {width: 100%;}
   .archiveblog_right {margin-left: 0px;width: 100%;}
