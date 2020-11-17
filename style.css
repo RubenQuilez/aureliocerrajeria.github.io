@@ -1299,6 +1299,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   display: inline;
   height: 450px;
 }
+.map {
+  width: 100%;
+  float: left;
+  display: inline;
+  height: 450px;
+}
+
 .wpcf7-text, .wpcf7-email, .wpcf7-select {
   height: 50px;
   margin-bottom: 15px;

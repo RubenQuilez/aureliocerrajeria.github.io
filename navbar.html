@@ -26,7 +26,7 @@
             <li id="mandosId"><a href="mandos.html">Mandos a distancia</a></li>
           </ul>
         </li>
-        <li id="noticiasId"><a href="novedades.html">Novedades</a></li>
+        <li id="novedadesId"><a href="novedades.html">Novedades</a></li>
         <li id="sobrenosotrosId"><a href="sobrenosotros.html">Sobre nosotros</a></li>
       </ul>
     </div>
@@ -64,8 +64,11 @@
       $('#serviciosId').addClass('active');
       $('#cajasfuertesId').addClass('active');
     }
-    else if (current.indexOf('noticias') > -1) {
-      $('#noticiasId').addClass('active');
+    else if (current.indexOf('novedades') > -1) {
+      $('#novedadesId').addClass('active');
+    }
+	  else if (current.indexOf('sobrenosotros') > -1) {
+      $('#sobrenosotrosId').addClass('active');
     }
     else {
       $('#indexId').addClass('active');
